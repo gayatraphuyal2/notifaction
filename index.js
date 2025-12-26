@@ -4,7 +4,7 @@ import fs from "fs";
 
 // 🔐 Load Firebase service account
 const serviceAccount = JSON.parse(
-  fs.readFileSync("./123.json", "utf8")
+  fs.readFileSync("./serviceAccountKey.json", "utf8")
 );
 
 // 🔥 Initialize Firebase Admin
